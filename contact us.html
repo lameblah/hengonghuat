@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<title>The Great Run</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 0px;
+  background-color: #f0f8ff;
+  padding: 0px;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="Home Page.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="Train and Prepare.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Train and Prepare</a>
+    <a href="Events.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Events</a>
+    <a href="FAQ.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FAQ</a>
+    <a href="Contact Us.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact Us</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Contact Us!</h1>
+  <p class="w3-xlarge">Still have any questions?</p>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname"><b>First Name</b></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname"><b>Last Name</b></label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="city"><b>City</b></label>
+    <select id="city" name="city">
+ <option value="aberdeen">Aberdeen</option>
+ <option value="belfast">Belfast</option>
+ <option value="birmingham">Birmingham</option>
+ <option value="bristol">Bristol</option>
+ <option value="edinburgh">Edinburgh</option>
+ <option value="glasgow">Glasgow</option>
+ <option value="liverpool">Liverpool</option>
+ <option value="manchester">Manchester</option>
+ <option value="newcastle upon tyne">Newcastle Upon Tyne</option>
+ <option value="sheffield">Sheffield</option>
+ <option value="york">York</option>
+    </select>
+
+<label for="raceno."><b>Race Number</b></label>
+    <input type="text" id="raceno." name="race number" placeholder="Your race number..">
+  
+<label for="FAQ categories"><b>FAQ Categories</b></label>
+    <select id="FAQ Categories" name="FAQ Categories">
+ <option value="Editing my personal details">Editing my personal details</option>
+ <option value="Wheelchair entries">Wheelchair entries</option>
+ <option value="Running for charity">Running for charity</option>
+ <option value="Race packs">Race packs</option>
+ <option value="Mini and Junior Events">Mini and Junior Events</option>
+ <option value="Withdrawal Policy">Withdrawal Policy</option>
+ <option value="Zone start/wave allocation">Zone start/wave allocation</option>
+ <option value="Finishers' packs">Finishers' packs</option>
+ <option value="Results">Results</option>
+ <option value="Photos And Certificates">Photos And Certificates</option>
+    </select>
+
+<label for="specifics"><b>Specifics?</b></label>
+    <input type="text" id="specifics" name="specifics" placeholder="">
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+  
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+
+  
+
+
+
+    <div class="w3-third w3-center">
+   
+    </div>
+  </div>
+</div>
+
+
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Main Sponsor: <i><b>Simplyhealth</i></b></h1>
+<div style="background-image: url(Simplyhealth.jpg); height: 200px; width: 270px;margin:auto"></div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+<a href="https://www.facebook.com/GreatNorthRunGNR">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+</a>
+<a href="https://www.instagram.com/great_run/">
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+</a>
+<a href="https://twitter.com/great_run">
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+</a>
+<a href="http://www.youtube.com/GreatRunTV">
+    <i class="fa fa-youtube w3-hover-opacity"></i>
+</a>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
